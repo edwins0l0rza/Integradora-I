@@ -38,11 +38,31 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   ```
   git clone https://github.com/GEMELX-TECHNOLOGY/Integradora-I.git
   ```
+- Ingresa a la carpeta "Integradora-I"
+  ```
+  cd Integradora-I
+  ```
 - Abre el proyecto en *VsCode*
 > [!TIP]
 > Utiliza el siguiente comando: `code .`
 
-- Cambia al branch `v1.0.0` <br/>
+## Back-End
+- Crea el entorno virtual
+  ```
+  python -m venv .venv
+  ```
+- Activa el `entorno virtual`: </br>
+  Presionala tecla `f1` para abrir el menu
+<div align="center"> 
+<img width="800"  src="https://github.com/user-attachments/assets/5b91a0e1-b175-4932-b121-8b6e03386505"/>
+<img width="800"  src="https://github.com/user-attachments/assets/6721068d-caf8-4135-a7b2-a91f7db37d1f"/>
+</div>  
+  
+- Instala los requerimientos que se encuentran en el archivo `requirements.txt`
+  ```
+  python install -r requirements.txt
+  ```
+  - Cambia al branch `v1.0.0` <br/>
   Debes abrir una terminal en VsCode
   ```
     git branch
@@ -50,6 +70,9 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   ```
 >[!NOTE]
   > Al ingresar el comando `git branch` debe aparecer $${\color{green}Start-Project}$$
+
+>[!WARNING]
+  >Si no aparece ingresa `git checkout Start-Project`, `git checkout master`
 
 ## Front-End
 - Instala <a href="https://nodejs.org/en">NodeJs</a>
@@ -68,17 +91,6 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   npm install
   ```
 
-## Back-End
-- Activa el `entorno virtual`: </br>
-  Presionala tecla `f1` para abrir el menu
-<div align="center"> 
-<img width="800"  src="https://github.com/user-attachments/assets/5b91a0e1-b175-4932-b121-8b6e03386505"/>
-<img width="800"  src="https://github.com/user-attachments/assets/6721068d-caf8-4135-a7b2-a91f7db37d1f"/>
-</div>  
-  
-- Instala los requerimientos que se encuentran en el archivo `requirements.txt`
-  ```
-  python install -r requirements.txt
-  ```
+
   
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
