@@ -74,7 +74,7 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   
 - Instala los requerimientos que se encuentran en el archivo `requirements.txt`
   ```
-  python install -r requirements.txt
+  pip install -r requirements.txt
   ```
 
     
