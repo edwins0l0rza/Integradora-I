@@ -27,7 +27,7 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
 > [!IMPORTANT]
 > Debes instalar absolutamente todo lo mostrado en este archivo
 
-### Clonar Repositorio
+## Clonar Repositorio
 - Abre una ventana `cmd`
 - Navega hacia la carpeta en la que se guardara el proyecto:
   <div align="center"> 
@@ -42,7 +42,16 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
 > [!TIP]
 > Utiliza el siguiente comando: `code .`
 
-### Front-End
+- Cambia al branch `v1.0.0` <br/>
+  Debes abrir una terminal en VsCode
+  ```
+    git branch
+    git checkout v1.0.0
+  ```
+>[!NOTE]
+  > Al ingresar el comando `git branch` debe aparecer $${\color{green}Start-Project}$$
+
+## Front-End
 - Instala <a href="https://nodejs.org/en">NodeJs</a>
 - Verica que se haya instalado correctamente
   ```  
@@ -59,7 +68,7 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   npm install
   ```
 
-### Back-End
+## Back-End
 - Activa el `entorno virtual`: </br>
   Presionala tecla `f1` para abrir el menu
 <div align="center"> 
@@ -71,14 +80,5 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   ```
   python install -r requirements.txt
   ```
-
-### Cambiar rama
-- Cambia al branch `v1.0.0`
-  ```
-    git branch
-    git checkout v1.0.0
-  ```
->[!NOTE]
-  > Al ingresar el comando `git branch` debe aparecer $${\color{green}Start-Project}$$
-
+  
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
