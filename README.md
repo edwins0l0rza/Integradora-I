@@ -16,6 +16,7 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
   
 [¿Quienes Somos?](#quienes-somos) <br/>
 [¿Como inicializar el proyecto?](#como-inicializar-el-proyecto) <br/>
+[¿Como levantar el proyecto?](#como-levantar-el-proyecto)
   
 </details>
 </div>
@@ -47,33 +48,36 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
 > Utiliza el siguiente comando: `code .`
 
 ## Back-End
+  - Cambia al branch `Start-Project` <br/>
+  Debes abrir una terminal en VsCode
+  ```
+    git checkout Start-Project
+  ```
+
 - Crea el entorno virtual
   ```
   python -m venv .venv
   ```
+  
 - Activa el `entorno virtual`: </br>
   Presionala tecla `f1` para abrir el menu
 <div align="center"> 
 <img width="800"  src="https://github.com/user-attachments/assets/5b91a0e1-b175-4932-b121-8b6e03386505"/>
 <img width="800"  src="https://github.com/user-attachments/assets/6721068d-caf8-4135-a7b2-a91f7db37d1f"/>
+<img width="800"   src="https://github.com/user-attachments/assets/161dfe75-40d1-4a10-aa74-2963c41d6511"/>
+
 </div>  
+
+> [!NOTE]
+>Si te sale un errror debes cerrar y abrir una terminal nueva.
+  
   
 - Instala los requerimientos que se encuentran en el archivo `requirements.txt`
   ```
   python install -r requirements.txt
   ```
-  - Cambia al branch `v1.0.0` <br/>
-  Debes abrir una terminal en VsCode
-  ```
-    git branch
-    git checkout v1.0.0
-  ```
->[!NOTE]
-  > Al ingresar el comando `git branch` debe aparecer $${\color{green}Start-Project}$$
 
->[!WARNING]
-  >Si no aparece ingresa `git checkout Start-Project`, `git checkout master`
-
+    
 ## Front-End
 - Instala <a href="https://nodejs.org/en">NodeJs</a>
 - Verica que se haya instalado correctamente
@@ -86,11 +90,49 @@ Copyright (c) 2024 GEMLEX TECHNOLOGY
 </div>
 <br/>
 
+- Divide la terminal `ctrl+shift+5`:
+    <div align="center"> 
+    <img width="800"  src="https://github.com/user-attachments/assets/1f8fe418-0320-4ab1-b722-16ee8eec63ee"/>
+  </div>
+  
+- Cambia al branch `v1.0.0` <br/>
+  
+  ```
+    git checkout v1.0.0
+    git branch
+  ```
+  
+  <div align="center"> 
+    <img width="800"  src="https://github.com/user-attachments/assets/06aea42b-6be1-4481-aa3f-5c26ddd44f17"/>
+  </div>
+  
 - Instala las dependencias de react `node_modules`
   ```
+  cd client
   npm install
   ```
+    <div align="center"> 
+    <img width="800"  src="https://github.com/user-attachments/assets/fe3d460d-6fa7-4f58-b778-ea2b9c6a145c"/>
+  </div>
+
+# ¿Como levantar el proyecto?
+
+## Back-end
+```
+cd backend
+python manage.py runserver
+```
+<div align="center"> 
+    <img width="800"  src="https://github.com/user-attachments/assets/1055a3d6-f7ef-4200-9986-478146a93d78"/>
+</div>
+
+## Front-End
+```
+npm run dev
+```
+<div align="center"> 
+    <img width="800"  src="https://github.com/user-attachments/assets/765b84b9-638d-4086-8408-043c19783550"/>
+</div>
 
 
-  
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
