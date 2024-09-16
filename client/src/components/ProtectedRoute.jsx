@@ -1,7 +1,7 @@
 import {Navigate} from "react-router-dom"
 import {jwtDecode} from "jwt-decode"
-import api from "../utilities/api"
-import { REFRESH_TOKEN, ACCESS_TOKEN } from "../utilities/constants"
+import api from "../services/api"
+import { REFRESH_TOKEN, ACCESS_TOKEN } from "../services/constants"
 import { useState, useEffect } from "react"
 
 //Component that protects routes, ensuring that the user is authenticated before allowing access
