@@ -17,4 +17,4 @@ class Productos(models.Model):
     precio = models.DecimalField
 #llave foranea
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
-    hika= models.IntegerField
+    hola=models.IntegerField
